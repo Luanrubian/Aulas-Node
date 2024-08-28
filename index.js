@@ -22,6 +22,13 @@ app.get('/tabuada/:numero',(req,res)=>{
 app.get('/test',(req,res)=>{
     res.send('Teste!')
 })
+app.post('/test',(req,res)=>{
+    const nome = req.body.nome
+    const sobrenome = req.body.sobrenome
+    const idade = req.body.idade
+    console.log(req.body)
+    res.send(`Olá ${nome} ${sobrenome} - ${idade}`)
+})
 
 app.listen(port,() => {
     console.log(`server rodando em http://localhost:${port}`)
