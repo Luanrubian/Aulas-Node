@@ -1,0 +1,17 @@
+{
+  "name": "projeto-node-aula03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "revisao.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
