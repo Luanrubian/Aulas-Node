@@ -19,6 +19,10 @@ app.get('/tabuada/:numero',(req,res)=>{
     res.send(textoResposta)
 })
 
+app.get('/test',(req,res)=>{
+    res.send('Teste!')
+})
+
 app.listen(port,() => {
     console.log(`server rodando em http://localhost:${port}`)
 })
